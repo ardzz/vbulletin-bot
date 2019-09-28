@@ -1,0 +1,21 @@
+{
+    "name": "ardzz/http-request",
+    "description": "Module http-request, untuk mempermudah keperluan cURL pada PHP",
+    "type": "module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ardhana",
+            "email": "ardzz@indoxploit.or.id"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "7.*.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "HttpRequest\\": "src/"
+        }
+    }
+}

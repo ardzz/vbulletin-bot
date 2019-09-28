@@ -1,0 +1,40 @@
+[
+    {
+        "name": "ardzz/http-request",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ardzz/http-request.git",
+            "reference": "d75258319496e55f67eeef9c6e62e8dfeade7b71"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ardzz/http-request/zipball/d75258319496e55f67eeef9c6e62e8dfeade7b71",
+            "reference": "d75258319496e55f67eeef9c6e62e8dfeade7b71",
+            "shasum": ""
+        },
+        "require": {
+            "php": "7.*.*"
+        },
+        "time": "2019-06-18T23:55:33+00:00",
+        "type": "module",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "HttpRequest\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ardhana",
+                "email": "ardzz@indoxploit.or.id"
+            }
+        ],
+        "description": "Module http-request, untuk mempermudah keperluan cURL pada PHP"
+    }
+]

@@ -1,0 +1,21 @@
+{
+    "name": "ardzz/vbulletin-exploit",
+    "description": "Bot auto exploit vBulletin (RCE)",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ardhana",
+            "email": "ardzz@indoxploit.or.id"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ardzz/http-request": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Exploit\\": "src/"
+        }
+    }    
+}
