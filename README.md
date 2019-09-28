@@ -13,7 +13,7 @@ The vBulletin team about the zero-day public disclosure, now tracked as CVE-2019
 
 ## Usage
 ```bash
-composer dump-autoload -o
+php composer.phar dump-autoload -o
 php vBot.php list_targets.txt
 ```
 ## Dork
